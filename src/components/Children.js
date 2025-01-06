@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Children = ({middle}) => {
+const Children = ({children}) => {
   return (
     <div>
-        <p><strong>{middle}</strong></p>
+        <p><strong>{children}</strong></p>
     </div>
   )
 }
